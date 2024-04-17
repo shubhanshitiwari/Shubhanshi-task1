@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:  rgb(17, 17, 23);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 400px;
+    margin: 50px auto;
+    background-color: #97cddc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2,h3{
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color:#140727;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(32, 32, 73);;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.social-media a{
+    font-size: 28px;
+    margin: 0px;
+}
+.social-media a .bx{
+    padding: 5px;
+    color: #fff;
+    background: #97cddc;
+    border-radius: 50%;
+}
+.social-media a .bx:hover{
+    background:#97cddc ;
+} 
+.links{
+    margin: 1rem 0 1rem;
+}
+.links a{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    padding: 1rem;
+}
